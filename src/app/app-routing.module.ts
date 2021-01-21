@@ -1,3 +1,4 @@
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -19,6 +20,11 @@ const routes: Routes = [
  {
   path:'registration',
   component : RegistrationComponent
+ },
+
+ {
+   path:'dashboard',
+   component : DashboardComponent
  }
 
 ];
